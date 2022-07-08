@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/user_registration
+    username: postgres
+    password: laajili
+  jpa:
+    show-sql: true
